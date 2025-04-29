@@ -1,0 +1,68 @@
+ 75  mkdir git-bootcamp
+   76  cd git-bootcamp
+   77  clear
+   78  mkdir jusan-git
+   79  cd jusan-git
+   80  git init
+   81  git config --global init.defaultBranch main
+   82  git branch
+   83  git branch -m name
+   84  git branch -m mai
+   85  git branch -m main
+   86  clear
+   87  touch script.sh
+   88  vim script.sh
+   89  ды
+   90  ls
+   91  vim script.sh
+   92  cat script.sh
+   93  ./script.sh
+   94  ls -l
+   95  chmod +x script.sh
+   96  ls -l
+   97  ./script.sh
+   98  touch Readme.md
+   99  vim Readme.md
+  100  cat Readme.md
+  101  git status
+  102  git add script.sh
+  103  git commit -m "add: script.sh"
+  104  git statu
+  105  git status
+  106  git add Readme.md
+  107  git commit
+  108  git log
+  109  git status
+  110  ls -la
+  111  rm -rf ./script.sh.swp
+  112  ls -la
+  113  git push
+  114  git remote add origin git@github.com:beibarys-learner/git-practice-1.git
+  115  git remote -v
+  116  git branch -M main
+  117  git push -u origin main
+  118  ssh-keygen -t ed25519 -C "beibarys-teacher@mail.com"\n
+  119  $ cat ~/.ssh/id_ed25519.pub
+  120  cat ~/.ssh/id_ed25519.pub
+  121  git branch -M main
+  122  git push -u origin main
+  123  git rev-parse HEAD\n
+  124  echo "c839f7d5518a9e493c206777e47eabcc1ac47cec"
+  125  git log --all --decorate --oneline --graph\n
+  126  git status
+  127  git pull 
+  128  git add .
+  129  git commit -m "last commit"
+  130  git push
+  131  ls -l
+  132  ls -la
+  133  rm ./script.sh.swp
+  134  rm .script.sh.swp
+  135  ls
+  136  ls -l
+  137  ls -la
+  138  git add .
+  139  git commit -m "fix"
+  140  git push
+  141  git rev-parse HEAD\n
+
